@@ -1,7 +1,4 @@
-const BASE_URL = "https://jobportal-backend-8u7u.onrender.com";
-
-export const JOB_API_POST = `${BASE_URL}/api/v1/job/post`;
-export const JOB_API_GET = `${BASE_URL}/api/v1/job/get`;
-export const JOB_API_ADMIN = `${BASE_URL}/api/v1/job/getadminjobs`;
-export const JOB_API_BY_ID = (id) => `${BASE_URL}/api/v1/job/get/${id}`;
-export const JOB_API_UPDATE = (id) => `${BASE_URL}/api/v1/job/update/${id}`;
+export const USER_API_END_POINT = "http://localhost:8000/api/v1/user";
+export const JOB_API_END_POINT = "http://localhost:8000/api/v1/job";
+export const APPLICATION_API_END_POINT = "http://localhost:8000/api/v1/application";
+export const COMPANY_API_END_POINT = "http://localhost:8000/api/v1/company";
